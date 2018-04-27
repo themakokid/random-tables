@@ -3,7 +3,7 @@ var randoms = [
   'Random2',
   'Random3',
   'Random4'
-]
+];
 
 function rando() {
   var randomNumber = Math.floor(Math.random() * randoms.length);
