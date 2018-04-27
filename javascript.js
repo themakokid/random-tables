@@ -5,7 +5,7 @@ var randoms = [
   'Random4'
 ];
 
-function rando() {
+function rando(randoms) {
  
   var randomNumber = Math.floor(Math.random() * randoms.length);
   document.getElementbyId('randoDisplay').innerHTML = randoms[randomNumber];
