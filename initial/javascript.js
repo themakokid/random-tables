@@ -6,6 +6,6 @@ var randoms = [
 ]
 
 function rando() {
-  var randomNumber = Math.floor(Math.random() * randoms.length);
+  var randomNumber = Math.floor(Math.random() * (randoms.length));
   document.getElementbyId('randoDisplay').innerHTML = randoms[randomNumber];
 }
