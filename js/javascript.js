@@ -8,6 +8,6 @@ var randoms = [
 function generate() {
  
   var randomNumber = Math.floor(Math.random() * randoms.length);
-  document.getElementbyId('randomDisplay').innerHTML = randoms[randomNumber];
+  document.getElementById('randomDisplay').innerHTML = randoms[randomNumber];
   
 }
