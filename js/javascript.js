@@ -1,13 +1,11 @@
-var randoms = [
-  'Random1',
-  'Random2',
-  'Random3',
-  'Random4'
-];
+function genlocation() {
 
-function generate() {
- 
-  var randomNumber = Math.floor(Math.random() * randoms.length);
-  document.getElementById('randomDisplay').innerHTML = randoms[randomNumber];
-  
+  var randomNumber = Math.floor(Math.random() * locations.length);
+  document.getElementById('locationsDisplay').innerHTML = "You find:" + locations[randomNumber];
+}
+
+function genlandmark() {
+
+  var randomNumber = Math.floor(Math.random() * landmarks.length);
+  document.getElementById('landmarksDisplay').innerHTML = "You see:" + landmarks[randomNumber];
 }

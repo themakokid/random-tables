@@ -1,0 +1,22 @@
+var landmarks = [
+  "A fruit tree.",
+  "A large hollow tree.",
+  "A pair of trees from the same root.",
+  "A tree growing over a boulder.",
+  "A clearing with wildflowers.",
+  "A grassy clearing.",
+  "A moss-covered boulder.",
+  "A thicket of brambles.",
+  "A babbling brook.",
+  "A brook in a deep ravine.",
+  "A brook with gentle rapids.",
+  "A dry creedbed.",
+  "A small pool at a creek's bend.",
+  "A patch of mushrooms.",
+  "An enormous mushroom.",
+  "A large, hollow log.",
+  "A large, rotting log.",
+  "A tree felled by lightning.",
+  "An old gnarled tree.",
+  "The stump of an enormous tree."
+];
