@@ -1,0 +1,22 @@
+var encounters = [
+  "A large bear.",
+  "A bear cub.",
+  "A giant spider.",
+  "Several giant spiders.",
+  "A pack of wolves.",
+  "A lone wolf.",
+  "A hunting cat.",
+  "A wailing ghost.",
+  "A malevolent ghost.",
+  "A pair of goblin scouts.",
+  "A goblin patrol.",
+  "An ogre.",
+  "A pair of outlaws.",
+  "A beggarly bandit.",
+  "An old witch.",
+  "A curious herbalist.",
+  "A lost child.",
+  "A woodcutter busy with the day's work.",
+  "An intrepid hunter.",
+  "An elvish ranger."
+];
