@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Random Test</title>
+  <title>Forest Table</title>
 </head>
 <body>
 
-  <h1>Simple Button</h1>
+  <script  type="text/javascript" src="js/tables/locations.js"></script>
+  <script  type="text/javascript" src="js/tables/landmarks.js"></script>
+  <script  type="text/javascript" src="js/tables/cottage.js"></script>
+  <script  type="text/javascript" src="js/tables/cave.js"></script>
+  <script  type="text/javascript" src="js/tables/cabinpresent.js"></script>
+  <script  type="text/javascript" src="js/tables/cabinpast.js"></script>
+  <script  type="text/javascript" src="js/tables/burrow.js"></script>
+  <script  type="text/javascript" src="js/tables/ruinslive.js"></script>
+  <script  type="text/javascript" src="js/tables/ruinsbuilder.js"></script>
+  <script  type="text/javascript" src="js/tables/notices.js"></script>
+  <script  type="text/javascript" src="js/tables/encounters.js"></script>
+  <script  type="text/javascript" src="js/javascript.js"></script>
+
+  <h1>What's in the forest?</h1>
   <div id="locationsDisplay">
     <p><!-- Stuff goes here --></p>
   </div>
   <div id="landmarksDisplay">
     <p><!-- Stuff goes here --></p>
   </div>
-
-  <script  type="text/javascript" src="js/tables/locations.js"></script>
-  <script  type="text/javascript" src="js/tables/landmarks.js"></script>
-  <script  type="text/javascript" src="js/javascript.js"></script>
+  <div id="noticesDisplay">
+    <p><!-- Stuff goes here --></p>
+  </div>
+  <div id="encountersDisplay">
+    <p><!-- Stuff goes here --></p>
+  </div>
 
   <p></p>
-  <button onclick="genlocation();genlandmark();">Random</button>
+  <button id="genbutton" onclick="generate()">
+    Let's see
+  </button>
 
 </body>
 </html>

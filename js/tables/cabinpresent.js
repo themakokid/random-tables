@@ -1,4 +1,4 @@
-var cottagepresent = [
+var cabinpresent = [
   "An owlbear.",
   "An ogre.",
   "A troll.",

@@ -1,4 +1,4 @@
-var ruinsbuilds = [
+var ruinsbuilder = [
   "Dwarvish miners.",
   "A wood elf kind.",
   "A high elf prince.",
