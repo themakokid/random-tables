@@ -1,0 +1,20 @@
+var notices = [
+  "A flock of birds scatter.",
+  "A hawk crying.",
+  "A woodpecker drumming.",
+  "Birds chirping.",
+  "A chipmunk scurrying.",
+  "A deer dashing away.",
+  "A squirrel leaping from one tree to another.",
+  "A wolf howling.",
+  "Butterflies fluttering about.",
+  "Squirrels chittering.",
+  "An eerie silence.",
+  "The breeze stop.",
+  "The wind blow harder.",
+  "A twig snap.",
+  "Brightly colored berries.",
+  "Leaves rustling.",
+  "The scent of flowers.",
+  "The smell of decay."
+];
